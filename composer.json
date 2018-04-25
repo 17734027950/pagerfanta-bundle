@@ -1,13 +1,13 @@
 {
-    "name": "white-october/pagerfanta-bundle",
+    "name": "17734027950/pagerfanta-bundle",
     "description": "Bundle to use Pagerfanta with Symfony2",
     "keywords": ["page","paging"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Pablo Díez",
-            "email": "pablodip@gmail.com"
+            "name": "Yang",
+            "email": "17734027950@189.cn"
         }
     ],
     "require": {
@@ -27,5 +27,22 @@
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
-    }
+    },
+    "config": {
+        "platform": {
+            "php": "5.5.9"
+        },
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "secure-http": false
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packagist.phpcomposer.com"
+        },
+        {
+            "packagist": false
+        }
+    ]
 }
